@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: "Roboto Regular";
+    src: url(./assets/Fonts/Roboto-Regular.ttf);
+}
+
+@font-face {
+    font-family: "Roboto Medium";
+    src: url(./assets/Fonts/Roboto-Medium.ttf);
+}
+
+@font-face {
+    font-family: "Roboto Bold";
+    src: url(./assets/Fonts/Roboto-Bold.ttf);
+}
+
+
+.rfont {
+    font-family: "Roboto Bold";
+}
+
+::-webkit-scrollbar {
+    height: 5px;
+    border-radius: 2px;
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+    background: rgba(0, 0, 0, 0.05);
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: rgba(0, 0, 0, 0.1);
+}
